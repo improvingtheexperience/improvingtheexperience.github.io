@@ -1,13 +1,15 @@
 <footer class="ite-footer">
-
-    {% for my_page in site.pages %}
-        {% if my_page.title %}
-        <a class="ite-footer-link ite-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-        {% endif %}
-    {% endfor %}
-
+    
     {% if site.twitter_username %}
         {% include icon-twitter.html username=site.twitter_username %}
     {% endif %}
-    
+
+    <nav class="ite-footer-nav">
+    {% for item in site.pages %}
+        {% if item.title %}
+        <a class="ite-footer-nav-item ite-link" href="{{ item.url | prepend: site.baseurl }}" title="{{ item.title }}">{{ item.title }}</a>
+        {% endif %}
+    {% endfor %}
+    </nav>
+
 </footer>

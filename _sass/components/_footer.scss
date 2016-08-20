@@ -5,21 +5,26 @@
     padding: 1.5em;
 }
 
-.ite-footer-link {
-    color: $isabelline;
+.ite-footer-nav {
     font-size: 1em;
 }
 
-.ite-footer-twitter {
-    float: right;
+.ite-footer-nav-item {
+    color: $isabelline;
 }
 
-.ite-footer-link-icon svg {
+.ite-footer-twitter {
+    color: $isabelline;
+    float: right;
+    font-size: 1em;
+}
+
+.ite-footer-twitter-icon svg {
     height: 1em;
     margin-bottom: -3px;
     width: 1em;
 }
 
-.ite-footer-link-icon svg path {
+.ite-footer-twitter-icon svg path {
     fill: $isabelline;
 }

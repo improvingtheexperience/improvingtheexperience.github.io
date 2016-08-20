@@ -5,5 +5,8 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "variables/colours"
+    "variables/colours",
+    "variables/fonts",
+    "base",
+    "components/header"
 ;

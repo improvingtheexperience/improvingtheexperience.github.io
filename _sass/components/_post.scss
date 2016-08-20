@@ -1,37 +1,51 @@
 .ite-post {
-    margin: 0 auto;
-    max-width: 34em;
     padding: 3.4em 0;
 }
 
 .ite-post-title {
     font-family: $title-font;
     font-size: 2em;
-    padding-bottom: 0.6em;
+    padding: 0 0.5em 0.6em;
+    margin: 0 auto;
+    max-width: 18em;
+}
+
+.ite-post-content {
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 36em;
+}
+
+.ite-post-image-link {
+    display: block;
+    margin: 2em auto;
+    width: 100%;
+    max-width: 42em;
 }
 
 .ite-post-image {
-    padding: 2em 0;
-}
-
-.ite-post-image-content {
     width: 100%;
-
-    @media only screen and (min-width: 42em) {
-        width: 42em;
-        margin-left: -4em;
-    }
 }
 
 .ite-post-quote {
     font-size: 0.9em;
-    margin-bottom: 1.4em;
-    padding-left: 1em;
-    border-left: 1em solid $isabelline
+    margin: 0 auto 1.4em;
+    padding: 0 1em;
+    width: 100%;
+    max-width: 39em;
+
+    @media only screen and (min-width: 36em) {
+        padding: 0 2em 0 1em;
+        border-left: 1em solid $isabelline;
+        max-width: 41.8em;
+    }
 }
 
 .ite-post-continue {
     text-align: right;
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 36em;
 }
 
 .ite-post-link {

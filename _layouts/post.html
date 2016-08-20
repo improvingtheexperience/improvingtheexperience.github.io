@@ -6,11 +6,11 @@ layout: content
 
     <h1 class="ite-post-title" itemprop="name headline">{{ page.title }}</h1>
 
-    {{ content }}
+    <div class="ite-post-content">{{ content }}</div>
 
-    <figure class="ite-post-image">
-        <img class="ite-post-image-content" src="{{ page.article.image }}" alt="{{ page.article.title }}" />
-    </figure>
+    <a class="ite-post-image-link" href="{{ page.article.url }}" title="{{ page.article.title }} on {{ page.article.source }}">
+        <img class="ite-post-image" src="{{ page.article.image }}" alt="{{ page.article.title }}" />
+    </a>
 
     <blockquote class="ite-post-quote">&quot;{{ page.article.intro-text }}&quot;</blockquote>
 

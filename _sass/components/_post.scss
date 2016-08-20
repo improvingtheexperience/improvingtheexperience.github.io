@@ -1,7 +1,7 @@
 .ite-post {
     margin: 0 auto;
-    max-width: 30em;
-    padding: 4em 0;
+    max-width: 34em;
+    padding: 3.4em 0;
 }
 
 .ite-post-title {
@@ -11,24 +11,23 @@
 }
 
 .ite-post-image {
-    position: relative;
-    overflow: hidden;
     padding: 2em 0;
-
-    @media only screen and (min-width: 38em) {
-        overflow: visible;
-    }
-
 }
 
 .ite-post-image-content {
-    width: 38em;
-    margin-left: -4em;
+    width: 100%;
+
+    @media only screen and (min-width: 42em) {
+        width: 42em;
+        margin-left: -4em;
+    }
 }
 
 .ite-post-quote {
     font-size: 0.9em;
-    padding-bottom: 1.4em;
+    margin-bottom: 1.4em;
+    padding-left: 1em;
+    border-left: 1em solid $isabelline
 }
 
 .ite-post-continue {

@@ -3,7 +3,7 @@ title: Improving The Experience
 timezone: UTC
 collections:
   posts:
-    title: Posts
+    title: Insights
     output: true
   uploads:
     title: Uploads

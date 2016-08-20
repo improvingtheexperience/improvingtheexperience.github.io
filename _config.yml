@@ -20,7 +20,8 @@ defaults:
     - scope:
         type: "posts"
       values:
-        title:
-        intro-text:
-        image:
-        url:
+        article:
+          title:
+          intro-text:
+          image:
+          url:

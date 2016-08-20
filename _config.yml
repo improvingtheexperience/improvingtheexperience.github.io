@@ -2,13 +2,6 @@
 title: Improving The Experience
 timezone: UTC
 collections:
-  insights:
-    title: Posts
-    output: true
-    article:
-      intro: 
-      image: 
-      url: 
   posts:
     title: Posts
     output: true

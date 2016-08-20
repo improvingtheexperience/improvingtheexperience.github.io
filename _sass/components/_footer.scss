@@ -1,0 +1,25 @@
+.ite-footer {
+    background-color: $yankees-blue;
+    font-family: $title-font;
+    font-size: 0.9rem;
+    padding: 1.5em;
+}
+
+.ite-footer-link {
+    color: $isabelline;
+    font-size: 1em;
+}
+
+.ite-footer-twitter {
+    float: right;
+}
+
+.ite-footer-link-icon svg {
+    height: 1em;
+    margin-bottom: -3px;
+    width: 1em;
+}
+
+.ite-footer-link-icon svg path {
+    fill: $isabelline;
+}

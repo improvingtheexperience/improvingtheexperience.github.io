@@ -19,9 +19,8 @@ markdown: kramdown
 defaults:
     - scope:
         type: "posts"
-        values:
-            article:
-                title:
-                intro-text:
-                image:
-                url:
+      values:
+        title:
+        intro-text:
+        image:
+        url:

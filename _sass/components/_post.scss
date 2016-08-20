@@ -1,5 +1,43 @@
+.ite-post {
+    margin: 0 auto;
+    max-width: 30em;
+    padding: 4em 0;
+}
+
 .ite-post-title {
     font-family: $title-font;
     font-size: 2em;
     padding-bottom: 0.6em;
+}
+
+.ite-post-image {
+    position: relative;
+    overflow: hidden;
+    padding: 2em 0;
+
+    @media only screen and (min-width: 38em) {
+        overflow: visible;
+    }
+
+}
+
+.ite-post-image-content {
+    width: 38em;
+    margin-left: -4em;
+}
+
+.ite-post-quote {
+    font-size: 0.9em;
+    padding-bottom: 1.4em;
+}
+
+.ite-post-continue {
+    text-align: right;
+}
+
+.ite-post-link {
+    font-family: $title-font;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
 }

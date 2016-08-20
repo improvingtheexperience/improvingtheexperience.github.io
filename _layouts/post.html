@@ -1,11 +1,21 @@
 ---
-layout: default
+layout: content
 ---
 
-<article class="ite-content" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="ite-post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <h1 class="ite-post-title" itemprop="name headline">{{ page.title }}</h1>
 
     {{ content }}
+
+    <figure class="ite-post-image">
+        <img class="ite-post-image-content" src="{{ page.article.image }}" alt="{{ page.article.title }}" />
+    </figure>
+
+    <blockquote class="ite-post-quote">{{ page.article.intro-text }}</blockquote>
+
+    <aside class="ite-post-continue">
+        <a class="ite-post-link ite-link" href="{{ page.article.url }}" title="{{ page.article.title }} on {{ page.article.source }}">Continue reading on {{ page.article.source }}</a>
+    </aside>
 
 </article>

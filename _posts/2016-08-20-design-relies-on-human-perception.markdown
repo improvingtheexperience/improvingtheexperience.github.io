@@ -10,6 +10,7 @@ article:
     the same colour...
   image: "/uploads/optical-adjustment.jpeg"
   url: https://medium.com/@lukejonesme/optical-adjustment-b55492a1165c
+layout: post
 ---
 
 **Optical Adjustment** is a great insight into the value of human perception in design. We can't rely on machines to design for us. The article includes tips on how you can improve the way users perceive your designs.

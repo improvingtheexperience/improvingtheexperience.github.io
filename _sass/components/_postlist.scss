@@ -2,11 +2,11 @@
     font-size: 1rem;
 }
 
-.ite-postlist-item-even {
-    background-color: $isabelline;
+.ite-postlist-item {
+    border-top: 1px solid $isabelline;
 }
 
-.ite-postlist-item {
+.ite-postlist-item-content {
     margin: 0 auto;
     max-width: 36em;
     overflow: auto;

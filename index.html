@@ -4,9 +4,9 @@ layout: home
 
 <ul class="ite-postlist">
     {% for post in site.posts %}
-    <li class="ite-postlist-item-{% cycle 'odd', 'even' %}">
+    <li class="ite-postlist-item">
 
-        <div class="ite-postlist-item {% if forloop.index == 1 %}ite-postlist-item-featured{% endif %}">
+        <div class="ite-postlist-item-content {% if forloop.index == 1 %}ite-postlist-item-featured{% endif %}">
 
             <aside class="ite-postlist-item-image">
 

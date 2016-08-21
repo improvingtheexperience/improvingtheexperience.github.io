@@ -13,6 +13,8 @@ defaults:
     path: ''
     type: posts
   values:
+    summary:
+    thumbnail-image:
     article:
       title: 
       intro-text: 

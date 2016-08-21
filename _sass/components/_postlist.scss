@@ -9,6 +9,7 @@
 .ite-postlist-item {
     margin: 0 auto;
     max-width: 36em;
+    overflow: auto;
     padding: 2.5em 0;
 }
 
@@ -18,8 +19,6 @@
 }
 
 .ite-postlist-item-metadata {
-    border: 1px solid red;
-    font-size: 0.75em;
     width: 48%;
 }
 
@@ -32,10 +31,17 @@
 
 .ite-postlist-item-title {
     font-family: $title-font;
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+
+.ite-postlist-item-summary {
+    font-size: 0.9em;
 }
 
 .ite-post-readmore {
+    margin-top: 0.5em;
     text-align: right;
 }
 

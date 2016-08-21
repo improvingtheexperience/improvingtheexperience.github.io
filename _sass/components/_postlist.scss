@@ -1,0 +1,47 @@
+.ite-postlist {
+    font-size: 1rem;
+}
+
+.ite-postlist-item-even {
+    background-color: $isabelline;
+}
+
+.ite-postlist-item {
+    margin: 0 auto;
+    max-width: 36em;
+    padding: 2.5em 0;
+}
+
+.ite-postlist-item-featured {
+    font-size: 1.2rem;
+    max-width: 35em;
+}
+
+.ite-postlist-item-metadata {
+    border: 1px solid red;
+    font-size: 0.75em;
+    width: 48%;
+}
+
+.ite-postlist-item-image {
+    float: right;
+    border: 1px solid red;
+    width: 48%;
+    height: 12em;
+}
+
+.ite-postlist-item-title {
+    font-family: $title-font;
+    font-size: 2em;
+}
+
+.ite-post-readmore {
+    text-align: right;
+}
+
+.ite-postlist-item-link {
+    font-family: $title-font;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+}

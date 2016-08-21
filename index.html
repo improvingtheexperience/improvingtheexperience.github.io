@@ -2,22 +2,32 @@
 layout: home
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+<ul class="ite-postlist">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <li class="ite-postlist-item-{% cycle 'odd', 'even' %}">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+        <div class="ite-postlist-item {% if forloop.index == 1 %}ite-postlist-item-featured{% endif %}">
+
+            <aside class="ite-postlist-item-image">
+
+            </aside>
+
+            <div class="ite-postlist-item-metadata">
+
+                <h3 class="ite-postlist-item-title">
+                    <a class="ite-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h3>
+
+                {{ post.content }}
+                <div class="ite-post-readmore">
+                    <a class="ite-postlist-item-link ite-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">Read more</a>
+                </div>
+
+                <!--<span class="ite-postlist-item-date">{{ post.date | date: "%b %-d, %Y" }}</span>-->
+            </div>
+
+        </div>
+
+    </li>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</ul>

@@ -1,6 +1,8 @@
 ---
 title: Design relies on human perception
 date: 2016-08-20 21:26:00 Z
+summary: Luke Jones gives us a great insight into the value of human perception when
+  designing for the web.
 article:
   title: Optical Adjustment
   intro-text: In my early days as a designer, I relied on Photoshop or CSS to tell

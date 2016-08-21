@@ -1,6 +1,8 @@
 ---
 title: Form design basics
 date: 2016-08-21 18:46:00 Z
+summary: Andrew Coyle shows us some of the common mistakes made when designing forms,
+  and ways of making them better.
 article:
   title: Design Better Forms
   intro-text: |-

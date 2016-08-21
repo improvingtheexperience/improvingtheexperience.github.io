@@ -1,6 +1,8 @@
 ---
 title: The influence of letter casing
 date: 2016-08-21 19:07:00 Z
+summary: John Saito talks about the use of letter casing, and how it can impact brand
+  perception.
 article:
   title: Making a case for letter case
   intro-text: |-

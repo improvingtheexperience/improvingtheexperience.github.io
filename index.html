@@ -18,7 +18,7 @@ layout: home
                     <a class="ite-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h3>
 
-                {{ post.content }}
+                <p class="ite-postlist-item-summary">{{ post.summary }}</p>
                 <div class="ite-post-readmore">
                     <a class="ite-postlist-item-link ite-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">Read more</a>
                 </div>

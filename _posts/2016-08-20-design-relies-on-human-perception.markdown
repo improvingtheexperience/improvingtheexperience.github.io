@@ -14,4 +14,4 @@ article:
 layout: post
 ---
 
-*Optical Adjustment* is a great insight into the value of human perception in design. We can't rely on machines to design for us. The article includes tips on how you can improve the way users perceive your designs.
+In *Optical Adjustment*, Luke Jones gives us a great insight into the value of human perception. This is particularly important in design, whilst we can design using the numbers (for example, using results from variant tests), we can't rely on machines to design for us. Luke runs through a few tips you can use to improve the way users perceive your designs.

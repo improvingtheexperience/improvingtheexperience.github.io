@@ -11,4 +11,6 @@ article:
   source: Medium
 ---
 
-The way you present your brand has a big influence on how users perceive it. This is particularly true with written text. In this article John Saito talks about the use of letter casing, and how it can impact brand perception. Whichever route you decide to take, make sure it's rolled out consistently.
+The way you present your brand has a big influence on how users perceive it. This is particularly true with written text.
+
+In this article John Saito talks about the use of letter casing, and how it can impact brand perception. Whichever route you decide to take, make sure it's rolled out consistently.
